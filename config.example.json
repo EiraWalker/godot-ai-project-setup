@@ -1,0 +1,40 @@
+{
+  "repo": "D:/tools/godot-ai",
+  "assets": "D:/tools/godot-ai-release-assets/v4.3.0",
+  "tag": "v4.3.0",
+  "version": "4.3.0",
+  "source": "b82b5c519b1b17228f70d8effce1626f391bd1dd",
+  "godot": "D:/tools/Godot/Godot.exe",
+  "codex": "C:/tools/codex.exe",
+  "records": "D:/tools/godot-ai-install-records",
+  "launcher": {
+    "command": "C:/tools/uvx.exe",
+    "args": [
+      "--isolated",
+      "--no-config",
+      "--no-env-file",
+      "--no-sources",
+      "--no-build",
+      "--index-strategy",
+      "first-index",
+      "--keyring-provider",
+      "disabled",
+      "--index",
+      "https://pypi.org/simple",
+      "--default-index",
+      "https://pypi.org/simple",
+      "--find-links",
+      "https://pypi.org/simple/godot-ai/",
+      "--link-mode",
+      "copy",
+      "--from",
+      "godot-ai==4.3.0",
+      "godot-ai",
+      "attach",
+      "--port",
+      "8000",
+      "--ws-port",
+      "9500"
+    ]
+  }
+}

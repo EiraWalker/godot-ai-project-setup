@@ -1,0 +1,3 @@
+interface:
+  display_name: "Godot AI 项目接入"
+  short_description: "为指定 Godot 项目安装插件、配置项目级 MCP 并验证编辑器连接"
